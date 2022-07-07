@@ -1,10 +1,14 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const questions = require('./assets/questions');
+// const { type } = require('os');
 
-// inquirer questions
-
-const manager = [
-	{
+// WHEN I start the application
+// THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
+// prompt questions about managers
+inquirer.prompt([
+    
+  	{
 		type: 'input',
 		message: "What is the manager's name?",
 		name: 'name',
@@ -27,60 +31,18 @@ const manager = [
 		message: "What is the manager's office number?",
 		name: 'officeNumber',
 		
+	},
+    {
+		type: 'list',
+		message: 'What employee would you like to add next?',
+		name: 'role',
+		choices: ['Engineer', 'Intern', 'I am finished entering employees']
 	}
-];
+    
+])
 
-const engineer = [
-	{
-		type: 'input',
-		message: "What is the engineer's name?",
-		name: 'name',
-		
-	},
-	{
-		type: 'input',
-		message: "What is the engineer's ID?",
-		name: 'id',
-		
-	},
-	{
-		type: 'input',
-		message: "What is the engineer's email?",
-		name: 'email',
-		
-	},
-	{
-		type: 'input',
-		message: "What is the engineer's GitHub username?",
-		name: 'github',
-		
-	}
-];
 
-const intern = [
-	{
-		type: 'input',
-		message: "What is the intern's name?",
-		name: 'name',
-		
-	},
-	{
-		type: 'input',
-		message: "What is the intern's ID?",
-		name: 'id',
-		
-	},
-	{
-		type: 'input',
-		message: "What is the intern's email?",
-		name: 'email',
-		
-	},
-	{
-		type: 'input',
-		message: "What is the intern's school?",
-		name: 'school',
-		
-	}
-];
+
+
+
 
