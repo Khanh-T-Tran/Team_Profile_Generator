@@ -16,8 +16,11 @@
   },
   "homepage": "https://github.com/Khanh-T-Tran/Team_Profile_Generator#readme",
   "keywords": [],
-  "description": "",
   "dependencies": {
     "inquirer": "^6.5.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "jest": "^28.1.2"
   }
 }
