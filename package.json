@@ -1,9 +1,9 @@
 {
   "name": "team_profile_generator",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "dependencies": {
     "inquirer": "^6.5.0"
   },
-  "description": "",
+  "description": "OOP and testing for week 10 homework",
   "devDependencies": {
     "jest": "^28.1.2"
   }
