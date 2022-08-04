@@ -22,5 +22,8 @@
   "description": "OOP and testing for week 10 homework",
   "devDependencies": {
     "jest": "^28.1.2"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
