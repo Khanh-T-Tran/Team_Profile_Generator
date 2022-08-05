@@ -47,7 +47,7 @@ const generateIntern = function (intern) {
             </div>
             <div class="card-body">
                 <p class="id">ID: ${intern.id}</p>
-                <p class="email">Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
+                <p class="email">Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
                 <p class="school">School: ${intern.school}</p>
             </div>
     </div>
@@ -56,7 +56,7 @@ const generateIntern = function (intern) {
 };
 
 // push array to page 
-generateHTML = (data) => {
+htmlGenerator = (data) => {
 
     // array for cards 
     pageArray = []; 
