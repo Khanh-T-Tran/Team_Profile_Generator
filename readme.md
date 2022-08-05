@@ -8,7 +8,7 @@
 4. [Technologies](#Technologies)
 
 ## Description
-A command application allow user to generate a team profile include manager, engineers and interns inside a HTML file.
+A command application allow user to generate a team profile including manager, engineers and interns inside a HTML file.
 
 ## User_Story
 AS A manager
