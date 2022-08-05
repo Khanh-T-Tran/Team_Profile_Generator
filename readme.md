@@ -8,7 +8,7 @@
 4. [Technologies](#Technologies)
 
 ## Description
-A command application allow user to generate a team profile including manager, engineers and interns inside a HTML file.
+A Node.js command-line application that takes in information about employees on a software engineering team, and with that information generates an HTML webpage that displays the user input data.
 
 ## User_Story
 AS A manager
